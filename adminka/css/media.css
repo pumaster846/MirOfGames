@@ -1,0 +1,26 @@
+@media screen and (max-width: 890px) {
+    .modal-column__header,
+    .modal-column__content,
+    .content-column__header{
+        display: none;
+    }
+    .burger-wrapper{
+        display: block;
+    }
+    .two-columns{
+        flex-direction: column;
+    }
+    .content-column{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .table,
+    .t-h,
+    .t-h > .fa-solid{
+        font-size: 10px;
+    }
+    .t-r{
+        grid-template-columns: 20px 56px 76px 1fr 57px 31px;
+    }
+}
