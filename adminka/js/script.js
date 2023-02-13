@@ -8,27 +8,3 @@ showSubMenu.forEach((item, i) => { // проходимся по каждому �
         rotateArrowMenu[i].classList.toggle('active');
     });
 });
-
-
-// $pageContent.on('keypress', function (e) {
-//     if (e.which == 13) {
-//         return addTag('\r\n<p>TEXT</p>');
-//     }
-// });
-
-// const showContent = Array.from(document.querySelectorAll('.menu-list__item'));
-// showContent.forEach((item, i) => {
-//     item.addEventListener('click', (e) => {
-//         document.querySelector('.tools-menu').classList.add('active');
-//         let contentValue = showContent[i].getAttribute('data-value');
-//         $.ajax({
-//             url: "/adminka/php/pagescontent.php",
-//             type: 'POST',
-//             data: {
-//                 'contentValue': contentValue
-//             }
-//         }).success(function (done) {
-//             $('.content').html(done);
-//         });
-//     });
-// });
